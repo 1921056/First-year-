@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"poppins",sans-serif;
+}
+:root{
+    --el-color:#333;
+}
+h1,h2,h3,h4,a,p{
+    color:var(--el-color);
+}
+a{
+    text-decoration:none;
+    
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    
+    font-weight: 600;
+    margin-left: 200px;
+    letter-spacing: 2px;
+}
+h3{
+    font-weight: 600;
+}
+i{
+    color:#eb7620;
+}
+p{
+    font-weight: 300;
+}
+.m-t{
+    margin-top: 150px;
+}
+.m-b{
+    margin-bottom: 100px;
+}
+
+.container{
+    width:100%;
+    background-color: rgb(231, 182, 125);
+    margin: auto;
+    text-align: center;
+}
+
+/*header section*/
+nav{
+    height: 100px;
+   
+}
+.heading{
+    background-color: #eb7620;
+    border-radius: 100px;
+    font-size: 30px;
+    color:rgb(175, 165, 190);
+    padding: 7px 8px;
+    border-style:double;
+    border-color: wheat;
+
+
+}
+nav h2{
+    float:left;
+    line-height: 50px;
+    display: inline;
+    margin-top: 20px;
+}
+nav ul{
+    
+    float: right;
+    line-height: 100px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-left: 5px;
+}  
+
+nav ul li a{
+    text-transform: uppercase;
+    margin-right: 40px;
+
+}
+.active{
+    background-color: #eb7620;
+    border-radius: 20px;
+    padding: 7px 25px;
+    color:#fff;
+    margin-right: 100px;
+}
+hr{
+    height: 5px;
+   color:yellowgreen;
+}
+/* show case area */
+.showcase {
+    height: calc(120vh - 80px);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/study.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #eb7620;
+
+}
+.showcase-content h1{
+    color:rgb(1, 5, 5);
+    letter-spacing:2px; 
+}
+
+.showcase-content p{
+    color:rgba(243, 129, 23, 0.856);
+    margin: 50px 0 ;
+    font-size: 25px;
+}
+.showcase-content{
+    width:50%;
+    margin: auto;
+    text-align: center ;
+   
+    transform: translateY(30vh);
+}
+.showcase-content .btn {
+    color:#fff;
+    border: 2px solid #fff;
+    padding:10px 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5% all;
+
+}
+.showcase-content .btn:hover{
+    background-color: #eb7620;
+    border:0;
+}
+
+/* About*/
+.about .about-image{
+    width: 45%;
+    float: left;
+}
+.about-wrapper img{
+    max-width:100%;
+    height:auto;
+
+}
+.about .about-content{
+    width:45%;
+    float:right;
+    text-align:left;
+    margin-top: 60px;
+
+}
+.about .line{
+    width:150px;
+    height:6px;
+    margin-top: 50px;
+    background-color: #333;
+}
+.about p{
+    margin-top: 50px;
+}
+.about ul{
+    margin-top: 50px;
+    list-style :none;
+
+}
+.about ul li{
+    margin-top: 10px 0;
+}
+.about .fa-li{
+    margin-left: -20px;
+}
+.social-icon{
+    margin-top: 50px;
+}
+.social-icon i{
+    padding: 10px;
+    font-size:30px;
+    border:1px solid black;
+
+}
